@@ -5,9 +5,9 @@
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
-}
-
-.po_item {
+  }
+  
+  .po_item {
     width: 100%;
     text-align: center;
     margin: 0.5rem auto;
@@ -18,62 +18,64 @@
     transition: 0.3s ease;
     font-size: 0;
     min-height: 150px;
-}
-
-.po_item img {
+  }
+  
+  .po_item img {
     max-width: 100%;
-}
-
-.po_item .content {
+  }
+  
+  .po_item .content {
     position: absolute;
-    height: 0;
-    width: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--overlay-color);
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
-    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--overlay-color);
     opacity: 0;
-    border: 1px solid black;
-}
-
-.po_item .content {
-    opacity: 0;
-    transition-delay: 1s;
-    transition: 0.3s ease;
-    font-size: 20px;
-}
-
-.po_item:hover {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .po_item:hover {
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
-}
-
-.po_item:hover .content {
-    height: calc(100% - 30px);
-    width: calc(100% - 30px);
+  }
+  
+  .po_item:hover .content {
     opacity: 1;
-}
-
-.po_item:hover .content {
-    opacity: 1;
+  }
+  
+  .po_item .content p {
     color: var(--secondary-color);
-}
-
-.po_item .content a {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .po_item .content a {
     background: var(--bg-color);
     border: solid 1px var(--text-color);
     padding: 4px 8px;
     text-align: center;
     font-size: 1rem;
-}
-
-.po_item .content a:hover {
+    color: var(--text-color);
     text-decoration: none;
-}
+  }
+  
+  .po_item .content a:hover {
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .po_items_ho {
+      column-width: 100%;
+      -moz-column-width: 100%;
+      -webkit-column-width: 100%;
+    }
+  
+    .po_item {
+      margin-bottom: 1rem;
+    }
+  }
+  

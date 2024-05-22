@@ -1,6 +1,7 @@
 import img1 from "./assets/images/Pizza-App.png";
 import img2 from "./assets/images/Social-Pedia.png";
 import img3 from "./assets/images/Travel-Heaven.png";
+import img4 from "./assets/images/Medium.png";
 
 const logotext = "Amarnath Dhumal";
 const meta = {
@@ -84,22 +85,34 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-        img: img1,
-        description: "Pizza-Delivey App",
-        link: "https://github.com/amarnath666/Pizza_Delivery_App",
+const dataportfolio = [
+    {
+      img: img1,  
+      description: `Pizza Delivery App<br />
+                    Features: User and admin authentication, email verification, pizza customization, inventory management, low-stock alerts, Razorpay integration.<br />
+                    Tech: React, Node.js, Express.js, MongoDB, Redux.`,
+      link: "https://github.com/amarnath666/Pizza_Delivery_App",
     },
     {
-        img: img2,
-        description: "Social-Pedia",
-        link: "https://github.com/amarnath666/Social-Pedia",
+      img: img2,
+      description: `Social-Pedia<br />
+                    Features: Profile creation, post sharing, liking system, friend management.<br />
+                    Tech: React, Node.js, Express.js, MongoDB, Redux.`,
+      link: "https://github.com/amarnath666/Social-Pedia",
     },
     {
-        img: img3,
-        description: "Travel-Heaven",
-        link: "https://github.com/amarnath666/Travel-Haven",
+      img: img3,
+      description: `Travel-Heaven<br />
+                    Features: User authentication, listing management, review system, mapbox integration.<br />
+                    Tech: JavaScript, Node.js, Express.js, MongoDB.`,
+      link: "https://github.com/amarnath666/Travel-Haven",
     },
-];
+    {
+      img: img4,
+      description: "Medium Blog<br /> Features: Blogging platform with user authentication.<br /> Tech: React, Hono, PostgreSQL.",
+      link: "https://github.com/amarnath666/Medium_Blog",
+    }
+  ];
 
 const contactConfig = {
     YOUR_EMAIL: "amarnathdhumal2001@gmail.com",
