@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.783a9fa2.css",
-    "main.js": "/portfolio/static/js/main.78b5b70a.js",
+    "main.js": "/portfolio/static/js/main.effae3a7.js",
     "static/media/Travel-Heaven.png": "/portfolio/static/media/Travel-Heaven.8cebbe11d022be8ac42a.png",
     "static/media/Pizza-App.png": "/portfolio/static/media/Pizza-App.11aab7496a3b0002b0c9.png",
     "static/media/Social-Pedia.png": "/portfolio/static/media/Social-Pedia.9d6b89e20c0925717fff.png",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.783a9fa2.css",
-    "static/js/main.78b5b70a.js"
+    "static/js/main.effae3a7.js"
   ]
 }
