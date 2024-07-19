@@ -27,11 +27,11 @@ const dataabout = {
 const skills = [
     {
         name: "Javascript",
-        value: 85,
+        value: 90,
     },
     {
         name: "Typescript",
-        value: 75,
+        value: 80,
     },
     {
         name: "React",
@@ -39,23 +39,31 @@ const skills = [
     },
     {
         name: "Node.js",
-        value: 80,
-    },
-    {
-        name: "MongoDB",
         value: 85,
     },
     {
         name: "Express.js",
-        value: 70,
+        value: 80,
     },
     {
-        name: "Redux",
-        value: 80
+        name: "MongoDB",
+        value: 90,
+    },
+    {
+        name: "PostgreSQL",
+        value: 85
     },
     {
         name: "MySQL",
         value: 65,
+    },
+    {
+        name: "Next.js",
+        value: 75
+    },
+    {
+        name: "Redux",
+        value: 80
     },
     {
         name: "AWS",
@@ -63,7 +71,19 @@ const skills = [
     },
     {
         name: "Docker",
-        value: 65
+        value: 70
+    },
+    {
+        name: "Prisma",
+        value: 80
+    },
+    {
+        name: "Mongoose",
+        value: 80
+    },
+    {
+        name: "Shadcn",
+        value: 80
     },
     {
         name: "HTML",
@@ -73,46 +93,56 @@ const skills = [
         name: "CSS",
         value: 80
     },
-];
-
-const services = [{
-        title: "Front-End Developer",
-        description: "Transforming ideas into captivating user interfaces is my passion. With expertise in HTML, CSS, and JavaScript, particularly in React.js, I specialize in creating responsive and visually appealing front-end solutions. Whether crafting intuitive user experiences or optimizing performance, I ensure that every pixel delivers value and enhances user engagement.",
+    {
+        name: "Tailwind CSS",
+        value: 80
     },
     {
-        title: "Back-End Developer",
-        description: "Building robust and scalable server-side solutions is where I excel. Leveraging Node.js and databases like MongoDB, I design and develop secure and efficient back-end architectures. From API development to database management, I ensure seamless communication between the front-end and back-end, delivering high-performance web applications that meet the demands of modern digital environments.",
+        name: "Material UI",
+        value: 80
     },
+    {
+        name: "Bootstrap",
+        value: 75
+    },
+];
+
+
+const services = [{
+    title: "Front-End Developer",
+    description: "Transforming ideas into captivating user interfaces is my passion. With expertise in HTML, CSS, and JavaScript, particularly in React.js, I specialize in creating responsive and visually appealing front-end solutions. Whether crafting intuitive user experiences or optimizing performance, I ensure that every pixel delivers value and enhances user engagement.",
+},
+{
+    title: "Back-End Developer",
+    description: "Building robust and scalable server-side solutions is where I excel. Leveraging Node.js and databases like MongoDB, I design and develop secure and efficient back-end architectures. From API development to database management, I ensure seamless communication between the front-end and back-end, delivering high-performance web applications that meet the demands of modern digital environments.",
+},
 ];
 
 const dataportfolio = [
     {
-      img: img1,  
-      description: `Pizza Delivery App<br />
-                    Features: User and admin authentication, email verification, pizza customization, inventory management, low-stock alerts, Razorpay integration.<br />
-                    Tech: React, Node.js, Express.js, MongoDB, Redux.`,
-      link: "https://github.com/amarnath666/Pizza_Delivery_App",
+        img: img1,
+        description: `Pizza Delivery App<br />
+                    Features: User & admin authentication, email verification, pizza customization, inventory management, Razorpay integration.<br />`,
+        link: "https://github.com/amarnath666/Pizza_Delivery_App",
     },
     {
-      img: img2,
-      description: `Social-Pedia<br />
-                    Features: Profile creation, post sharing, liking system, friend management.<br />
-                    Tech: React, Node.js, Express.js, MongoDB, Redux.`,
-      link: "https://github.com/amarnath666/Social-Pedia",
+        img: img2,
+        description: `Social-Pedia<br />
+                    Features: Profile creation, post sharing, liking system, friend management.<br />.`,
+        link: "https://github.com/amarnath666/Social-Pedia",
     },
     {
-      img: img3,
-      description: `Travel-Heaven<br />
-                    Features: User authentication, listing management, review system, mapbox integration.<br />
-                    Tech: JavaScript, Node.js, Express.js, MongoDB.`,
-      link: "https://github.com/amarnath666/Travel-Haven",
+        img: img3,
+        description: `Travel-Heaven<br />
+                    Features: User authentication, listing management, review system, mapbox integration.<br />`,
+        link: "https://github.com/amarnath666/Travel-Haven",
     },
     {
-      img: img4,
-      description: "Medium Blog<br /> Features: Blogging platform with user authentication.<br /> Tech: React, Hono, PostgreSQL.",
-      link: "https://github.com/amarnath666/Medium_Blog",
+        img: img4,
+        description: "Medium Blog<br /> Features: Blogging platform with user authentication.<br />",
+        link: "https://github.com/amarnath666/Medium_Blog",
     }
-  ];
+];
 
 const contactConfig = {
     YOUR_EMAIL: "amarnathdhumal2001@gmail.com",
